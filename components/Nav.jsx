@@ -21,7 +21,7 @@ const Nav = () => {
 
   return (
     <nav className="flex-between w-full mb-16 pt-3">
-      {/* Mobile navigation */}
+
       <Link href="/" className="flex gap-2 flex-center">
         <Image
           src="/assets/images/logo.svg"
@@ -47,6 +47,31 @@ const Nav = () => {
                 className="rounded-full"
                 alt="profile image" />
             </Link>
+          </div>
+        ) : (
+          <>
+            {providers &&
+              Object.values(providers.map((provider) => (
+                <button type="button"
+                  key={provider.name}
+                  onClick={() => signIn(provider.id)}
+                  className="black_btn">
+                  Sign In
+                </button>
+              )))}
+          </>
+        )}
+      </div>
+      {/* Mobile navigation */}
+      <div className="sm:hidden flex relative">
+        {isUserLoggedIn ? (
+          <div className="flex">
+            <Image src="/assets/images/abstract-user.svg"
+              width={37}
+              height={37}
+              className="rounded-full"
+              alt="profile image"
+              onClick={ } />
           </div>
         ) : (
           <>
