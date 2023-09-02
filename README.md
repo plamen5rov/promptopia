@@ -1,4 +1,4 @@
-![Promptopia](/assets/images/promtopia-scr.png)
+![Promptopia](https://ibb.co/8bWr1zN)
 
 **Promptopia Project**
 
