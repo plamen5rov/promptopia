@@ -1,3 +1,13 @@
+![Promptopia](/assets/images/promtopia-scr.png)
+
+**Promptopia Project**
+
+[https://youtu.be/wm5gMKuwSYk?si=gr3r3G8HQ4_6-Kpb](https://youtu.be/wm5gMKuwSYk?si=gr3r3G8HQ4_6-Kpb)
+
+The online demo is here: [https://promptopia-imp88ijro-plamen5rov.vercel.app/](https://promptopia-imp88ijro-plamen5rov.vercel.app/)
+
+********************************
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
