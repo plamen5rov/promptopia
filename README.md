@@ -1,4 +1,4 @@
-![Promptopia](https://ibb.co/8bWr1zN)
+![Promptopia](https://i.ibb.co/MfYcF8Z/promptopia-scr.png)
 
 **Promptopia Project**
 
